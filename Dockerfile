@@ -2,7 +2,7 @@
 FROM python:3.10
 
 # making directory of app
-WORKDIR /langchain-Document-Chat
+WORKDIR /appdemov2
 
 # copy of requirements file
 COPY requirements.txt ./requirements.txt
