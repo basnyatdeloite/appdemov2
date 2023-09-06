@@ -4,6 +4,9 @@ FROM python:3.10
 # making directory of app
 WORKDIR /appdemov2
 
+# copy secrets.toml
+COPY secrets.toml /root/.streamlit/secrets.toml
+
 # copy of requirements file
 COPY requirements.txt ./requirements.txt
 
