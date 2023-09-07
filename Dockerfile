@@ -10,6 +10,9 @@ COPY requirements.txt ./requirements.txt
 # install pacakges
 RUN pip3 install -r requirements.txt
 
+# moving secrets.toml
+COPY secrets.toml /root/.streamlit/secrets.toml
+
 # copying all files over
 COPY . .
 
