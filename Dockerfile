@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 8501
 
 # command to launch app
-CMD streamlit run ./Chatbot.py
+CMD streamlit run ./Generic_ChatBot.py
