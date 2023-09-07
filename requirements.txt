@@ -8,3 +8,5 @@ streamlit-feedback
 python-dotenv
 PyPDF2
 tiktoken
+faiss-cpu
+faiss-gpu
