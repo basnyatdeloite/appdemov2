@@ -14,7 +14,7 @@ import smtplib
 def get_openai_api_key():
     load_dotenv()
     return os.getenv("OPENAI_API_KEY")
-
+    
 
 with st.sidebar:
     openai_api_key = get_openai_api_key()
